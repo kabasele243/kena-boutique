@@ -11,26 +11,26 @@ class Directory extends React.Component {
     this.state = {
       sections: [
         {
-          title: 'hats',
+          title: 'Hats',
           imageUrl: 'https://images.unsplash.com/photo-1585095949331-5feb1219fd9f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80',
           // imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
           id: 1,
           linkUrl: 'hats'
         },
         {
-          title: 'jackets',
+          title: 'Jackets',
           imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
           id: 2,
           linkUrl: ''
         },
         {
-          title: '',
+          title: 'Sneakers',
           imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
           id: 3,
           linkUrl: ''
         },
         {
-          title: '',
+          title: 'Womens',
           imageUrl: 'https://images.unsplash.com/photo-1589156191108-c762ff4b96ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80',
           // imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
           size: 'large',
@@ -38,7 +38,7 @@ class Directory extends React.Component {
           linkUrl: ''
         },
         {
-          title: 'mens',
+          title: 'Mens',
           imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
           size: 'large',
           id: 5,
